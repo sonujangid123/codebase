@@ -1,0 +1,406 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    background-color: white;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.logo img{
+    width: 150px;
+    margin-left: 50px;
+}
+
+.mylinks{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    padding-right: 40px;
+}
+.mylinks li{
+    list-style: none;
+}
+.mylinks a{
+    text-decoration: none;
+    color: #2b2a2f;
+    font-size: 18px;
+    padding: 0 30px;
+    font-weight: 600;
+
+
+}
+.login a{
+    color: white;
+    background-color: blue;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+.mid-point{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div-fist{ 
+width: 675px;
+text-align: left;
+
+}
+.div-fist h1{
+    font-size: 66px;
+    line-height: 72px;
+}
+.div-fist p{
+    font-size: 18px;
+    color: gray;
+    padding: 20px 0;
+    width: 524px;
+
+}
+.login2{
+    margin-top: 20px;
+}
+.login2 a{
+    color: white;
+    background-color: blue;
+    padding: 10px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 23px;
+    line-height: 24px;
+}
+.section3{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 30px;
+}
+.section4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+.img-fist{
+    width: 150px;
+    margin: 10px 50px;
+    
+ 
+ 
+}
+
+.img-fist img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.section5 h1{
+    text-align: center;
+    font-size: 58px;
+    line-height: 72px;
+    margin-top: 80px;
+
+}
+.one-box{
+  border: 1px solid black;
+  width: 300px;
+  height: 500px;
+  border-radius: 20px;
+  
+}
+.one-box h3{
+    text-align: center;
+    padding: 20px;
+}
+.one-box h4{
+    text-align: center;
+    color: #747486;
+}
+.one-box p{
+    text-align: justify;
+    padding: 20px;
+    line-height: 30px;
+}
+.img-box img{
+     width: 128px;
+     display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.section6{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    margin: 80px 150px;
+}
+.section7{
+    background-image: url("image/bg-img.jpeg");
+    padding-bottom: 50px;
+}
+.section7-box1{
+    display: flex;
+    text-align: center;
+    padding: 65px 180px;
+    
+    
+}
+.section7-box2{
+    text-align: center;
+    margin-left: 400px;
+
+}
+.section7 h3{
+    color: white;
+    text-align: center;
+    font-size: 58px;
+    line-height: 72px;
+    padding-top: 75px;
+}
+.section7-div{
+    background: rgba(0, 0, 0, .62);
+    width: 353px;
+    border-radius: 20px;
+    padding: 25px;
+    margin: 0px 50px;
+
+}
+.section7-div h2{
+     margin-top: 50px;
+}
+.section7-div p{
+    font-size: 23px;
+    line-height: 24px;
+    text-align: center;
+}
+.section7-div h2{
+    color: white;
+}
+.section7-div p{
+    color: white;
+
+}
+.section7-div img{
+    width: 100px;
+
+}
+.section8{
+    padding: 86px;
+    background-color: #f1f1f1;
+}
+.section8 h1{
+    text-align: center;
+    font-size: 58px;
+    line-height: 72px;
+    color: #2b2a2f;
+    margin-right: auto;
+    margin-left: auto;
+    width: 700px;
+}
+.section8-box1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.section8-div{
+    width: 344px; 
+    margin: 50px 0px
+}
+.section8-div img{
+    width: 60px;
+}
+.section8-div h2{
+    padding: 5px 0px;
+}
+.section8-div p{
+    line-height: 24px;
+    font-size: 16px;
+    color: #2b2a2f;
+    font-weight: 400;
+}
+.section9-box1{
+    display: flex;
+    width: 586pxs;
+    
+}
+.section9 h2{
+    text-align: center;
+    font-size: 58px;
+    line-height: 72px;
+}
+.section9{
+    text-align: center;
+    padding: 20px;
+}
+.div-fist9{ 
+    width: 750px;
+    text-align: left;
+    
+}
+.sectin9-div2{
+    margin-left: 50px;
+    margin-top: 20px;
+    
+}
+.sectin9-div1{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.sectin9-div1 h1{
+     font-size: 58px;
+     border: 9px solid blue;
+     border-radius: 100%;
+     width: 100px;
+     line-height: 72px;
+     text-align: center;
+     color: #471aff;
+     margin-left: 50px;
+     margin-top: 15px;
+    
+}
+.sectin9-div1 h5{
+    font-size: 23px;
+    line-height: 24px;
+
+}
+.sectin9-div1 p{
+      line-height: 25px;
+      width: 338px;
+    
+}
+.sectin9-div2 p{
+    line-height: 25px;
+    width: 338px;
+  
+}
+
+.sectin9-div2 h5{
+    font-size: 23px;
+    line-height: 24px;
+}
+
+.sectin9-div2{
+    width: 300px;
+}
+
+.section9-box2{
+    display: flex;
+}
+.section9-box3{
+    display: flex;
+}
+.div-second9 img{
+    width: 696px;
+    max-width: 100%;
+}
+.section10{
+    text-align: center;
+    background-color: #471aff;
+    color: white;
+    padding: 50px;
+}
+
+.section11{
+    text-align: center;
+    background-color: #471aff;
+    color: white;
+    padding: 15px 30px;
+    padding-bottom: 60px!important;
+    
+    
+}
+.section10 h1{
+    font-size: 34px;
+
+}
+.logo-div{
+    display: flex;
+    margin-left: 370px;
+}
+.login2 a{
+    color: white;
+    background-color: blue;
+    padding: 10px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    line-height: 24px;
+}
+.login3{
+    margin-top: 20px; 
+    margin-left: 20px;
+   
+}
+.login3 a{
+    color: white;
+    background-color: blue;
+    padding: 10px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    line-height: 24px;
+    border: 3px solid white;
+}
+.span-or{
+    margin: 20px;
+}
+.section12{
+    background: #4E0FEA !important;
+
+}
+.img-div{
+    margin-left: 120px;
+}
+.img-div img{
+   width: 200px;
+}
+.div-blank{
+    width: 1100px;
+    height: 2px;
+    color: white;
+    background-color: white;
+    margin-left:  100px;
+}
+.section13{
+    background: #4E0FEA !important;
+    display: flex;
+
+}
+.section13 ul{
+    display: flex;
+    color: white;
+    margin-left: 90px;
+    list-style: none;
+}
+.section13 i{
+    padding: 10px;
+    font-size: 25px;
+}
+.section13-div2{
+    margin-left: 650px;
+    padding: 10px;
+}
+.section13-div2 li{
+    margin-left: 10px;
+    font-size: 18px;
+}
+.section14{
+    background: #4E0FEA !important;
+    padding-bottom: 100px;
+
+}
+.section14 small{
+    color: white;
+    margin-left: 100px;
+}
+.section14 p{
+    margin-left: 100px;
+    color: #c9c0c0 !important;
+    font-size: 11px;
+    line-height: 20px;
+}
